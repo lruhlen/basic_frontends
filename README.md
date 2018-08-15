@@ -1,9 +1,18 @@
 # basic_frontends
 Template of web UI for submitting data to a Python microservice.
 
+### Why?
+As a data scientist, I want non-technical users to be able to use the models I develop.
+
+A good way to do this is through a web interface.
+
+Figuring out how to get javascript and html to play well with HUG, my favorite Python microservice framework, is hard.  I'm also pretty clueless about javascript, like many other data scientists I know.
+
+Here is the simplest possible working solution I could create.  Please copy, use, and modify it for your own needs. 
+
 ## How to use
 
-### Start Python microservice
+### Start the Python microservice
 
 1. Navigate to `example_python_microservice/` folder.
 2. (First time only) Create a python3 virtual environment.
